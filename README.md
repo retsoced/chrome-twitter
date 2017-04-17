@@ -1,6 +1,6 @@
 # Sample Amazon Twitter Feed Extension
 
-Simple Twitter feed widget made as a chrome extension to insert recent feeds into Amazon.com Sidebar.
+Simple Twitter feed widget made as a chrome extension to insert recent tweets into the Amazon.com Sidebar.
 
 ### Notes
 
