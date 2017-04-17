@@ -1,0 +1,110 @@
+#feed-block {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	clear: both;
+	margin: 0;
+	width: 300px;
+	height: 165px;
+	border-radius: 6px;
+	background: #f2f2f2; /* Old browsers */
+	background: -moz-linear-gradient(top, #f2f2f2 0%, #fcfcfc 35%, #eaeaea 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f2f2f2 0%,#fcfcfc 35%,#eaeaea 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f2f2f2 0%,#fcfcfc 35%,#eaeaea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+#feed-block header {
+	display: block;
+	height: 20px;
+	padding: 0 6px;
+	font-weight: bold;
+	font-size: .9em;
+	font-color: #000;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+
+#feed-block ul {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 6px 6px 0 6px;
+	width: 6000px;
+	height: 100px;
+	-webkit-transition: left .7s, -webkit-transform .7s;
+    transition: left .7s, transform .7s;
+}
+#feed-block li {
+	list-style: none;
+	display: inline;
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 300px;
+}
+
+#feed-block nav {
+	display: block;
+	position: absolute;
+	width: 300px;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #ccc;
+	height: 25px;
+}
+
+#feed-block nav div {
+	display: inline-block;
+	width: 149px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	padding-top: 2px;
+	-webkit-transition: background .4s, -webkit-transform .4s;
+    transition: background .4s, transform .4s;
+}
+
+#feed-block nav div:hover {
+	text-decoration: underline;
+	color: #0e68c8;
+	cursor: pointer;
+	background: rgba(150,150,150,.1);
+}
+
+#feed-block nav .next {
+	position: absolute;
+	right: 0;
+}
+
+#feed-block nav .back {
+	display: none;
+	position: absolute;
+	left: 0;
+}
+
+.tweet {
+	text-align: left;
+}
+ 
+.tweet .name {
+	display: inline-block;
+	color: #666;
+}
+
+.tweet .timestamp {
+	display: inline-block;
+	color: #0e68c8;
+	padding-left: 15px;
+}
+
+.tweet .text {
+	display: block;
+	color: #000;
+	padding-top: 5px;
+	width: 290px;
+}
